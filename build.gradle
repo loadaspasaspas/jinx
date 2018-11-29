@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+mainClassName = 'com.loadaspasaspas.jinx.Main'
+version = '0.1.0'
+
+jar {
+    manifest {
+        attributes('Implementation-Title': project.name, 'Implementation-Version': project.version, 'Main-Class': project.mainClassName)
+    }
+}
+
