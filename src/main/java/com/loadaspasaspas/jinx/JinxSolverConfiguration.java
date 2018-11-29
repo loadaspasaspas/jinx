@@ -7,12 +7,12 @@ public class JinxSolverConfiguration {
     private int keyCount;
     private int maxGrowthSequence;
     private int maxIdenticalSequence;
-    private int maxNumber;
-    private int maxUnique;
+    private int maxNumberCount;
+    private int maxUniqueCount;
     private int minGrowthSequence;
     private int minIdenticalSequence;
-    private int minNumber;
-    private int minUnique;
+    private int minNumberCount;
+    private int minUniqueCount;
     private char[] symbol;
 
     public JinxSolverConfiguration() {
@@ -23,12 +23,12 @@ public class JinxSolverConfiguration {
         keyCount = 0;
         maxGrowthSequence = 2;
         maxIdenticalSequence = 2;
-        maxNumber = 8;
-        maxUnique = 9;
+        maxNumberCount = 8;
+        maxUniqueCount = 9;
         minGrowthSequence = 0;
         minIdenticalSequence = 0;
-        minNumber = 4;
-        minUnique = 6;
+        minNumberCount = 4;
+        minUniqueCount = 6;
     }
 
     public int[][] getDifferentialBounds() {
@@ -51,12 +51,12 @@ public class JinxSolverConfiguration {
         return maxIdenticalSequence;
     }
 
-    public int getMaxNumber() {
-        return maxNumber;
+    public int getMaxNumberCount() {
+        return maxNumberCount;
     }
 
-    public int getMaxUnique() {
-        return maxUnique;
+    public int getMaxUniqueCount() {
+        return maxUniqueCount;
     }
 
     public int getMinGrowthSequence() {
@@ -67,12 +67,12 @@ public class JinxSolverConfiguration {
         return minIdenticalSequence;
     }
 
-    public int getMinNumber() {
-        return minNumber;
+    public int getMinNumberCount() {
+        return minNumberCount;
     }
 
-    public int getMinUnique() {
-        return minUnique;
+    public int getMinUniqueCount() {
+        return minUniqueCount;
     }
 
     public char[] getSymbol() {
@@ -99,12 +99,12 @@ public class JinxSolverConfiguration {
         this.maxIdenticalSequence = maxIdenticalSequence;
     }
 
-    public void setMaxNumber(int maxNumber) {
-        this.maxNumber = maxNumber;
+    public void setMaxNumberCount(int maxNumberCount) {
+        this.maxNumberCount = maxNumberCount;
     }
 
-    public void setMaxUnique(int maxUnique) {
-        this.maxUnique = maxUnique;
+    public void setMaxUniqueCount(int maxUniqueCount) {
+        this.maxUniqueCount = maxUniqueCount;
     }
 
     public void setMinGrowthSequence(int minGrowthSequence) {
@@ -115,12 +115,12 @@ public class JinxSolverConfiguration {
         this.minIdenticalSequence = minIdenticalSequence;
     }
 
-    public void setMinNumber(int minNumber) {
-        this.minNumber = minNumber;
+    public void setMinNumberCount(int minNumberCount) {
+        this.minNumberCount = minNumberCount;
     }
 
-    public void setMinUnique(int minUnique) {
-        this.minUnique = minUnique;
+    public void setMinUniqueCount(int minUniqueCount) {
+        this.minUniqueCount = minUniqueCount;
     }
 
     public void setSymbol(char[] symbol) {

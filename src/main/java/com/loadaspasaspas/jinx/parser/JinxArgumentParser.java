@@ -7,7 +7,7 @@ public class JinxArgumentParser {
     private int current;
     private String[] args;
 
-    public JinxArgumentParser() {
+    public JinxArgumentParser()
     }
 
     private boolean next() {
